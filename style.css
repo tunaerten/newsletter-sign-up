@@ -43,8 +43,11 @@ a:active {
 }
 
 footer {
-  margin: 2em 0;
-  color: var(--clr-white);
+  display: none;
+}
+
+.attribution a {
+  color: white;
 }
 
 :root {
@@ -318,5 +321,15 @@ body {
   .dismiss-btn {
     margin: 2.5em 0 0em 0;
     padding: 1.2em;
+  }
+
+  footer {
+    margin: 2em 0;
+    color: var(--clr-white);
+    display: block;
+  }
+
+  .attribution a {
+    color: white;
   }
 }
